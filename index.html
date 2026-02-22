@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Echochan</title>
-    <script type="module" crossorigin src="./assets/index-B9Wo_99D.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CMw-dyUp.css">
+    <script type="module" crossorigin src="./assets/index-Dq2uls7Y.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-GGyFOwEs.css">
   </head>
   <body>
     <div id="app">
@@ -82,6 +82,22 @@
         <label>
           Max payload KB
           <input id="max-payload-kb" type="number" min="60" max="200" />
+        </label>
+        <label>
+          GitHub image upload (public repo)
+          <input id="github-upload-toggle" type="checkbox" />
+        </label>
+        <label>
+          GitHub username
+          <input id="github-owner" type="text" placeholder="Ehidn6" />
+        </label>
+        <label>
+          GitHub repo for images
+          <input id="github-repo" type="text" placeholder="echochan-images" />
+        </label>
+        <label>
+          GitHub token (public_repo)
+          <input id="github-token" type="password" placeholder="ghp_..." />
         </label>
         <div class="modal-actions">
           <button id="relay-defaults">Use default relays</button>
