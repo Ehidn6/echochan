@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Echochan</title>
-    <script type="module" crossorigin src="./assets/index-BMOnJZjz.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-1su_exLU.css">
+    <script type="module" crossorigin src="./assets/index-V03NpnWB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D443Qzee.css">
   </head>
   <body>
     <div id="app">
+      <button id="sidebar-overlay" class="sidebar-overlay" aria-label="Close rooms"></button>
       <aside class="sidebar">
         <div class="sidebar-title">Rooms</div>
         <div id="room-list" class="room-list"></div>
@@ -20,7 +21,10 @@
       </aside>
       <main class="main">
         <header class="toolbar">
-          <div class="room-label" id="current-room">#test</div>
+          <div class="room-label">
+            <button id="sidebar-toggle" class="icon-btn sidebar-toggle" aria-label="Rooms">☰</button>
+            <span id="current-room">#test</span>
+          </div>
           <div class="toolbar-actions">
             <select id="target-select"></select>
             <button id="settings-btn">Settings</button>
